@@ -1,0 +1,166 @@
+body {
+  background-color: #E9EAEC;
+  margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+  }
+  
+  body::before {
+    content: "XS";
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+/* Navbar custom styles */
+.navbar-custom {
+  color: white;
+  height: 70px;
+  width: 100%; /* Ensures the navbar stretches across the full width of the viewport */
+}
+
+.navbar-brand {
+  font-size: 30px; /* Maintains font size consistency */
+  font-weight: 500;
+}
+
+/* Fix for navbar collapse background */
+
+/* Responsive behavior adjustments */
+@media (max-width: 991.98px) { /* Adjustments for MD screens and below */
+  .navbar-toggler {
+      color: #080c37; /* Ensures toggler icon is visible */
+  }
+
+  .navbar-collapse {
+      margin-left: 0; /* Aligns the collapsed menu properly */
+  }
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+.card {
+  border-color: #87CEEB;
+  background-color: #87cfeb89;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn-more-info {
+  background-color: #0D98BA;
+  color: white;
+  padding: 10px;
+}
+.btn-more-info:hover {
+  background-color: #87CEEB;
+}
+
+/* Style for modal content background */
+.modal-content.custom-modal {
+  background-color: #5085A5;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+/* Add some top margin to the row that follows any navbar */
+.navbar + .row {
+  margin-top: 20px; /* Adjust the value as needed */
+}
+
+.row {
+  margin-left: 20px;
+}
+
+.carcar + .carcar {
+  margin-top: 30px;
+}
+
+.git {
+  font-size: 25px;
+  background-color:  #87CEEB;
+  margin-left: 0;
+  height: 50px;
+}
+
+.centered-form {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+.form-width {
+  width: 100%; /* Full width */
+  max-width: 330px; /* Maximum width */
+  padding: 15px; /* Padding */
+}
+.form-group {
+  margin-bottom: 1.5rem; /* Increased bottom margin for spacing */
+}
+.btn-center {
+  display: block; /* Make button a block element to fill width */
+  width: 50%; /* Set button width to 50% */
+  margin: 1.5rem auto 0; /* Top margin 1.5rem, auto margins on left and right for centering */
+}
+/* Initial padding-top for main content */
+:root {
+  --navbar-height: 70px;  /* Adjust this based on your navbar's height */
+}
+
+#main-content {
+  transition: padding-top 0.3s ease; /* Smooth transition for padding adjustment */
+  padding-top: var(--navbar-height); /* Default padding equal to the navbar height */
+}
+
+.navbar-expanded #main-content {
+  padding-top: calc(var(--navbar-height) * 2); /* Double the padding when navbar is expanded */
+}
+
+.card {
+  height: 100%;  /* Ensures all cards are the same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Aligns content and button within the card */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures the button is always at the bottom */
+}
+
+  @media (min-width: 576px) {
+    body::before {
+      content: "SM";
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+      content: "MD";
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: "LG";
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: "XL";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "XXL";
+    }
+  }
