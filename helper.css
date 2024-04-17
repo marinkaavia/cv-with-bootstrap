@@ -1,9 +1,9 @@
 body {
-  background-color: #E9EAEC;
+  background-color:  #87cfeb52;
   margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
   }
   
-  body::before {
+  /* body::before {
     content: "XS";
     color: red;
     font-size: 2rem;
@@ -11,7 +11,7 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-  }
+  } */
   
 /* Navbar custom styles */
 .navbar-custom {
@@ -40,6 +40,17 @@ body {
 
 .montserrat {
   font-family: "Montserrat", sans-serif;
+}
+
+/* Default style for nav links */
+.nav-link {
+  color: black; /* Default text color */
+  background-color: transparent; /* No background when not active */
+}
+
+.nav.flex-column .nav-link.active {
+  color: white; /* White text color when active */
+  background-color: #0D98BA; /* Blue background when active */
 }
 
 
@@ -85,7 +96,7 @@ a:hover {
 
 .git {
   font-size: 25px;
-  background-color:  #87CEEB;
+  background-color: #0d97ba91;
   margin-left: 0;
   height: 50px;
 }
@@ -129,13 +140,14 @@ a:hover {
   justify-content: space-between; /* Aligns content and button within the card */
 }
 
+
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Ensures the button is always at the bottom */
 }
 
-  @media (min-width: 576px) {
+  /* @media (min-width: 576px) {
     body::before {
       content: "SM";
     }
@@ -163,4 +175,4 @@ a:hover {
     body::before {
       content: "XXL";
     }
-  }
+  } */

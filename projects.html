@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MarinaCV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="helper.css">
+  </head>
+  <body class="montserrat">
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:  #0d97ba91;">
+        <a class="navbar-brand" style="margin-left: 20px;">Navigation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="font-size: 20px;">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" style="margin-left: 20px;"><span class="sr-only">Index</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html" style="margin-left: 20px; font-weight:800">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html" style="margin-left: 20px;">Hobbies</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="mt-5" style="margin-right: 20px;">
+        <div class="row">
+          <div class="row">
+            <div class="col-md-4">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Explore My Projects:</a>
+                    <a class="nav-link" id="v-pills-project1-tab" data-bs-toggle="pill" href="#v-pills-project1" role="tab" aria-controls="v-pills-project1" aria-selected="false">U-Check with Face Recognition (UFace)</a>
+                    <a class="nav-link" id="v-pills-project2-tab" data-bs-toggle="pill" href="#v-pills-project2" role="tab" aria-controls="v-pills-project2" aria-selected="false">Furniture & interior design content creation (Home designAR)</a>
+                    <a class="nav-link" id="v-pills-project3-tab" data-bs-toggle="pill" href="#v-pills-project3" role="tab" aria-controls="v-pills-project3" aria-selected="false">Educational AI-Powered Mathematics Learning web-site</a>
+                </div>
+            </div>
+        
+            <div class="col-md-8">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <p style="font-size: 25px;"><strong>Welcome on a project page!</strong></p>
+                    <p>Welcome to my personal project portfolio. Here, you can explore a diverse range of my work, each project tailored to showcase innovative solutions and creative thinking. Feel free to click on any of the projects listed on the left to delve into detailed presentations, rich insights, and the unique challenges each project addresses. This is your gateway to discovering the breadth and depth of my professional endeavors.</p>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12"> <!-- Adjusted for medium and small screens -->
+                          <div class="card" style="width: 100%;"> <!-- Changed width to be responsive -->
+                            <div class="card-body">
+                              <h5 class="card-title">U-Check with Face Recognition</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">UFace</h6>
+                              <p class="card-text">UFace is an innovative attendance system using face recognition technology </p>
+                              <a href="#" class="card-link">Github link</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                          <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                              <h5 class="card-title">Furniture & interior design content creation</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Home designAR</h6>
+                              <p class="card-text">Redesign home and create 2D and 3D furniture and decoration content</p>
+                              <a href="#" class="card-link">Github link</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                          <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                              <h5 class="card-title">Educational AI-Powered Mathematics Learning web-site</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">for Russian State exam</h6>
+                              <p class="card-text">Application aims to make mathematics engaging for students</p>
+                              <a href="#" class="card-link">Github link</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                    
+                </div>
+                
+                    <div class="tab-pane fade" id="v-pills-project1" role="tabpanel" aria-labelledby="v-pills-project1-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/pr.png" class="img-fluid" alt="Project 1">
+                            </div>
+                            <div class="col-md-6"> <!--project 1-->
+                              <h3>Attendance checking system with face recognition (UFace)</h3>
+                              <p><strong>General Description:</strong><br>
+                                <p>U-Check with Face Recognition, also known as UFace, is a technological solution designed to streamline the attendance and identity verification processes in educational settings. This project eliminates the need for individual phones by incorporating face recognition technology, enabling a more efficient connection among teachers, administrators, and students. The system's simple interface ensures ease of use and quick adoption, enhancing daily administrative operations and improving security measures.</p>
+                              
+                              <p><strong>Technologies Used:</strong><br>
+                              <strong>Python:</strong> were used numpy and OpenCV libraries<br>
+                              <strong>OpenCV (cv2 library): </strong> Utilized for capturing and processing images from video streams, this library is instrumental in implementing face detection algorithms.</p>
+                              <p><strong>Period working on:</strong><br>
+                                september-december 2023</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-project2" role="tabpanel" aria-labelledby="v-pills-project2-tab">
+                        <div class="row">
+                          <div class="col-md-6"> <!--project2-->
+                            <h3>Furniture & interior design content creation (Home designAR)</h3>
+                            <p><strong>General Description:</strong><br>
+                              This innovative project allows users to create and customize 2D and 3D furniture and decoration items simply by inputting text or images. Leveraging augmented reality (AR) technology, users can overlay these items in real space, transforming how interior design is visualized and planned. The tool offers functionality to customize colors, add furniture to a room, and apply realistic rendering effects, enhancing the user experience and design accuracy.</p>
+                            
+                            <p><strong>Technologies Used:</strong><br>
+                            <p><strong>Figma:</strong>Used for designing the UI/UX elements and prototyping the application interface.</p>
+                            <p><strong>HTML & CSS:</strong> Employed to structure and style the web application, ensuring it is visually appealing and functional.</p>
+                            <p><strong>JavaScript (JS):</strong>Drives the interactive elements of the application, handling AR integrations and dynamic content customization.</p>
+                        </div>
+                            <div class="col-md-6">
+                                <img src="images/des.png" class="img-fluid" alt="Project 2" style="margin-bottom: 20px;">
+                                <p><strong>Period working on:</strong><br>
+                                  september-december 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-project3" role="tabpanel" aria-labelledby="v-pills-project3-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/last.png" class="img-fluid" alt="Project 3">
+                                <p><strong>Period working on:</strong><br>
+                                  March-September 2022</p>
+                            </div>
+                            <div class="col-md-6">
+                              <h3>Educational AI-Powered Mathematics Learning Website for Russian State Exam</h3>
+                              <p><strong>General Description:</strong><br>
+                              This interactive web application is designed to help students master advanced mathematics in preparation for the Russian state exam. By incorporating <strong>artificial intelligence (AI)</strong>, the tool provides personalized learning experiences, offering problems and explanations tailored to each student's needs. The application focuses on improving problem-solving skills and understanding key mathematical concepts essential for the exam.</p>
+                              
+                              <p><strong>Technologies Used:</strong><br>
+                              <strong>Python:</strong> The core programming language used for backend development, enabling the integration of AI functionalities and data handling.<br>
+                              <strong>AI Libraries (such as NumPy, Pandas, SciPy):</strong> These libraries are crucial for processing mathematical data, generating test problems, and analyzing student performance to tailor the learning experience.</p>
+                              
+                          </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  </body>
+</html>
